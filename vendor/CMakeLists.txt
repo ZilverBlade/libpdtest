@@ -1,7 +1,5 @@
 set(PTHREADS_LIB "${CMAKE_CURRENT_SOURCE_DIR}/pthread/lib/pthread_static_lib.lib")
 set(PTHREADS_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/pthread-win32")
-option(LIBPD_STATIC OFF)
-option(LIBPD_SHARED ON)
 add_subdirectory(libpd)
 set_target_properties(libpd PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
