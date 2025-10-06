@@ -1,5 +1,0 @@
-D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/ALL_BUILD.dir
-D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/ZERO_CHECK.dir
-D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/libpd.dir
-D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/ALL_BUILD.dir
-D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/src/CMakeFiles/testapp.dir
