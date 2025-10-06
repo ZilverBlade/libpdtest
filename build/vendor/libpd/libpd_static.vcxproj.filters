@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_arithmetic.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_array.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_ctl.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_dac.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_delay.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_fft.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_fft_fftsg.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_filter.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_global.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_math.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_misc.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_osc.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_resample.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_aiff.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_caf.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_next.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_wave.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_ugen.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_all_guis.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_array.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_bang.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_canvas.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_clone.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_editor.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_editor_extras.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_graph.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_guiconnect.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_io.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_mycanvas.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_numbox.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_radio.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_readwrite.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_rtext.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_scalar.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_slider.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_template.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_text.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_toggle.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_traversal.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_undo.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_vumeter.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_atom.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_binbuf.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_class.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_conf.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_glob.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_memory.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_obj.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_pd.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_sched.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_audio.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_audio_dummy.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_inter.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_inter_gui.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_loader.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_main.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_net.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_path.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_print.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_utf8.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_acoustics.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_arithmetic.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_array.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_connective.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_file.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_gui.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_interface.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_list.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_midi.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_misc.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_net.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_scalar.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_text.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_time.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp_fun.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp_if.c">
+      <Filter>pd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\s_libpdmidi.c">
+      <Filter>libpd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\x_libpdreceive.c">
+      <Filter>libpd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_hooks.c">
+      <Filter>libpd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_libpd.c">
+      <Filter>libpd</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_ringbuffer.c">
+      <Filter>libpdutils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_print_util.c">
+      <Filter>libpdutils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_queued.c">
+      <Filter>libpdutils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\bob~\bob~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\bonk~\bonk~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\choice\choice.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\fiddle~\fiddle~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\loop~\loop~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\lrshift~\lrshift~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pd~\pdsched.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pd~\pd~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pique\pique.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\sigmund~\sigmund~.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\stdout\stdout.c">
+      <Filter>pdextra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_all_guis.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_canvas.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_imp.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_pd.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_stuff.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_utf8.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp.h">
+      <Filter>pd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\x_libpdreceive.h">
+      <Filter>libpd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_hooks.h">
+      <Filter>libpd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_ringbuffer.h">
+      <Filter>libpdutils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_print_util.h">
+      <Filter>libpdutils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_queued.h">
+      <Filter>libpdutils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libpd">
+      <UniqueIdentifier>{1E2C4918-A998-372C-B2C3-10FE29BC84A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libpdutils">
+      <UniqueIdentifier>{4F31C381-5BEC-3504-A475-6BD26A4792E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pd">
+      <UniqueIdentifier>{7A31F448-3655-31EE-8C25-31DBC801EBD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdextra">
+      <UniqueIdentifier>{0CCF6456-0F6D-32BB-A913-786EAD451501}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

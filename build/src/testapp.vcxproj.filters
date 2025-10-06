@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdObject.cpp" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdBase.hpp" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdMidiReceiver.hpp" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdObject.hpp" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdReceiver.hpp" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\PdTypes.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

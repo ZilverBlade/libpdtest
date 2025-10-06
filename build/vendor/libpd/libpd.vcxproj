@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{744620DC-3EAD-3554-9BA5-9A0F6817857F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libpd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libpd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libpd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libpd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libpd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libpd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w /experimental:c11atomics</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4091;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR="Debug";libpd_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR=\"Debug\";libpd_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread\lib\pthread_static_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/libs/libpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/bin/Debug/libpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w /experimental:c11atomics</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4091;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR="Release";libpd_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR=\"Release\";libpd_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread\lib\pthread_static_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/libs/libpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/bin/Release/libpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w /experimental:c11atomics</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4091;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR="MinSizeRel";libpd_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR=\"MinSizeRel\";libpd_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread\lib\pthread_static_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/MinSizeRel/libpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/bin/MinSizeRel/libpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -w /experimental:c11atomics</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4091;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR="RelWithDebInfo";libpd_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;WINVER=0x502;_WIN32;HAVE_STRUCT_TIMESPEC;NDEBUG;_CRT_SECURE_NO_WARNINGS;PD_LONGINTTYPE=long long;PD_INTERNAL=1;PD=1;USEAPI_DUMMY=1;LIBPD_EXTRA=1;CMAKE_INTDIR=\"RelWithDebInfo\";libpd_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread-win32;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Ws2_32.lib;D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\pthread\lib\pthread_static_lib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/RelWithDebInfo/libpd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/bin/RelWithDebInfo/libpd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/vendor/libpd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest" "-BD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build" --check-stamp-file "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\vendor\libpd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/vendor/libpd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest" "-BD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build" --check-stamp-file "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\vendor\libpd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/vendor/libpd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest" "-BD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build" --check-stamp-file "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\vendor\libpd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/vendor/libpd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest" "-BD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build" --check-stamp-file "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/vendor/libpd/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckLibraryExists.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\vendor\libpd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_arithmetic.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_array.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_ctl.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_dac.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_delay.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_fft.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_fft_fftsg.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_filter.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_global.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_math.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_misc.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_osc.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_resample.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_aiff.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_caf.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_next.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_soundfile_wave.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\d_ugen.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_all_guis.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_all_guis.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_array.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_bang.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_canvas.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_canvas.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_clone.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_editor.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_editor_extras.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_graph.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_guiconnect.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_io.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_mycanvas.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_numbox.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_radio.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_readwrite.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_rtext.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_scalar.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_slider.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_template.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_text.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_toggle.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_traversal.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_undo.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\g_vumeter.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_atom.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_binbuf.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_class.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_conf.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_glob.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_imp.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_memory.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_obj.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_pd.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_pd.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\m_sched.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_audio.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_audio_dummy.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_inter.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_inter_gui.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_loader.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_main.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_net.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_path.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_print.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_stuff.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_utf8.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\s_utf8.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_acoustics.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_arithmetic.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_array.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_connective.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_file.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_gui.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_interface.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_list.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_midi.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_misc.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_net.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_scalar.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_text.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_time.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp_fun.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\src\x_vexp_if.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\s_libpdmidi.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\x_libpdreceive.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\x_libpdreceive.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_hooks.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_hooks.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\z_libpd.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_ringbuffer.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_ringbuffer.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_print_util.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_print_util.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_queued.c" />
+    <ClInclude Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\libpd_wrapper\util\z_queued.h" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\bob~\bob~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\bonk~\bonk~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\choice\choice.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\fiddle~\fiddle~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\loop~\loop~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\lrshift~\lrshift~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pd~\pdsched.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pd~\pd~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\pique\pique.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\sigmund~\sigmund~.c" />
+    <ClCompile Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\vendor\libpd\pure-data\extra\stdout\stdout.c" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\Directories\Documents\Visual Studio 2019\source\repos\libpdtest\build\ZERO_CHECK.vcxproj">
+      <Project>{D1CB6075-23CB-36A6-B494-29390E4E78A4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

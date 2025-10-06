@@ -1,0 +1,10 @@
+^D:\DIRECTORIES\DOCUMENTS\VISUAL STUDIO 2019\SOURCE\REPOS\LIBPDTEST\BUILD\CMAKEFILES\39ABEB07E36ABA5BE5A4D2434BE7EECC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest" "-BD:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/libpdtest.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

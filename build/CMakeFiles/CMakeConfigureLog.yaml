@@ -1,0 +1,524 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 6 Oct 2025 15:30:29.
+      Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.57
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/3.31.8/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 6 Oct 2025 15:30:30.
+      Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\3.31.8\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.51
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/3.31.8/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-4f7sxt"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-4f7sxt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-4f7sxt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e628c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:30.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f7sxt\\cmTC_e628c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e628c.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f7sxt\\Debug\\".
+          Creating directory "cmTC_e628c.dir\\Debug\\cmTC_e628c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e628c.dir\\Debug\\cmTC_e628c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e628c.dir\\Debug\\\\" /Fd"cmTC_e628c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e628c.dir\\Debug\\\\" /Fd"cmTC_e628c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f7sxt\\Debug\\cmTC_e628c.exe" /INCREMENTAL /ILK:"cmTC_e628c.dir\\Debug\\cmTC_e628c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-4f7sxt/Debug/cmTC_e628c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-4f7sxt/Debug/cmTC_e628c.lib" /MACHINE:X64  /machine:x64 cmTC_e628c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e628c.vcxproj -> D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f7sxt\\Debug\\cmTC_e628c.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e628c.dir\\Debug\\cmTC_e628c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e628c.dir\\Debug\\cmTC_e628c.tlog\\cmTC_e628c.lastbuildstate".
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4f7sxt\\cmTC_e628c.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-uwk7oh"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-uwk7oh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-uwk7oh'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_08fbf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:31.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwk7oh\\cmTC_08fbf.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_08fbf.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwk7oh\\Debug\\".
+          Creating directory "cmTC_08fbf.dir\\Debug\\cmTC_08fbf.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_08fbf.dir\\Debug\\cmTC_08fbf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08fbf.dir\\Debug\\\\" /Fd"cmTC_08fbf.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08fbf.dir\\Debug\\\\" /Fd"cmTC_08fbf.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwk7oh\\Debug\\cmTC_08fbf.exe" /INCREMENTAL /ILK:"cmTC_08fbf.dir\\Debug\\cmTC_08fbf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-uwk7oh/Debug/cmTC_08fbf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-uwk7oh/Debug/cmTC_08fbf.lib" /MACHINE:X64  /machine:x64 cmTC_08fbf.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_08fbf.vcxproj -> D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwk7oh\\Debug\\cmTC_08fbf.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_08fbf.dir\\Debug\\cmTC_08fbf.tlog\\unsuccessfulbuild".
+          Touching "cmTC_08fbf.dir\\Debug\\cmTC_08fbf.tlog\\cmTC_08fbf.lastbuildstate".
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uwk7oh\\cmTC_08fbf.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendor/libpd/CMakeLists.txt:70 (check_include_file)"
+    checks:
+      - "Looking for alloca.h"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-ndznoz"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-ndznoz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -DWINVER=0x502 -DWIN32 -D_WIN32 -DHAVE_STRUCT_TIMESPEC -w"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ALLOCA_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-ndznoz'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_5acf7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:32.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5acf7.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\Debug\\".
+          Creating directory "cmTC_5acf7.dir\\Debug\\cmTC_5acf7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5acf7.dir\\Debug\\cmTC_5acf7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5acf7.dir\\Debug\\\\" /Fd"cmTC_5acf7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5acf7.dir\\Debug\\\\" /Fd"cmTC_5acf7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\CheckIncludeFile.c"
+        cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj]
+        D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj]
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj]
+        
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ndznoz\\cmTC_5acf7.vcxproj]
+        
+            1 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.33
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendor/libpd/CMakeLists.txt:71 (check_include_file)"
+    checks:
+      - "Looking for endian.h"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-x5bk2q"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-x5bk2q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -DWINVER=0x502 -DWIN32 -D_WIN32 -DHAVE_STRUCT_TIMESPEC -w"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ENDIAN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-x5bk2q'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_0712b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:32.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0712b.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\Debug\\".
+          Creating directory "cmTC_0712b.dir\\Debug\\cmTC_0712b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0712b.dir\\Debug\\cmTC_0712b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0712b.dir\\Debug\\\\" /Fd"cmTC_0712b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0712b.dir\\Debug\\\\" /Fd"cmTC_0712b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\CheckIncludeFile.c"
+        cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj]
+        D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj]
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj]
+        
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x5bk2q\\cmTC_0712b.vcxproj]
+        
+            1 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendor/libpd/CMakeLists.txt:72 (check_include_file)"
+    checks:
+      - "Looking for machine/endian.h"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-qne8tf"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-qne8tf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -DWINVER=0x502 -DWIN32 -D_WIN32 -DHAVE_STRUCT_TIMESPEC -w"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MACHINE_ENDIAN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-qne8tf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_3c64c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:33.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3c64c.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\Debug\\".
+          Creating directory "cmTC_3c64c.dir\\Debug\\cmTC_3c64c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3c64c.dir\\Debug\\cmTC_3c64c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3c64c.dir\\Debug\\\\" /Fd"cmTC_3c64c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3c64c.dir\\Debug\\\\" /Fd"cmTC_3c64c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\CheckIncludeFile.c"
+        cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj]
+        D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'machine/endian.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj]
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj]
+        
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'machine/endian.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qne8tf\\cmTC_3c64c.vcxproj]
+        
+            1 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "vendor/libpd/CMakeLists.txt:73 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-h40fe6"
+      binary: "D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-h40fe6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS -DWINVER=0x502 -DWIN32 -D_WIN32 -DHAVE_STRUCT_TIMESPEC -w"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Directories/Documents/Visual Studio 2019/source/repos/libpdtest/build/CMakeFiles/CMakeScratch/TryCompile-h40fe6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_288de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6 Oct 2025 15:30:33.
+        Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_288de.dir\\Debug\\".
+          Creating directory "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\Debug\\".
+          Creating directory "cmTC_288de.dir\\Debug\\cmTC_288de.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_288de.dir\\Debug\\cmTC_288de.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_288de.dir\\Debug\\\\" /Fd"cmTC_288de.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+          CheckIncludeFile.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WINVER=0x502 /D _WIN32 /D HAVE_STRUCT_TIMESPEC /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_288de.dir\\Debug\\\\" /Fd"cmTC_288de.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -w "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\CheckIncludeFile.c"
+        cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj]
+        D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj]
+        Done Building Project "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line warning D9025: overriding '/W1' with '/w' [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj]
+        
+        
+        "D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Directories\\Documents\\Visual Studio 2019\\source\\repos\\libpdtest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h40fe6\\cmTC_288de.vcxproj]
+        
+            1 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.32
+        
+      exitCode: 1
+...
